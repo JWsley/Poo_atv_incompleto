@@ -20,7 +20,9 @@ class Menu:
             if entrada == '4':
                 Estq.alter_produto()
             if entrada == '0':
-              print('••••••Encerrando processo•••••')
+              print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
+              print('••••••Processo Encerrado•••••')
+              print('■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■')
               break
          
                
