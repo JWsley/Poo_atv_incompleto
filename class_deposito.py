@@ -37,11 +37,11 @@ class Deposito:
         x = len(info.cod)
         i = len(estq.self.armazena)
         for i in range(x):
-            if estq.self.armazena[i] == info.cod[x]:
+            if estq.self.armazena[i] != info.cod[x]:
                 resp = input('Deseja Adicionar Produto ao estoque? [S/N]')
                 if resp == 'S':
                    self.quan +=1
-                elif resp != 'N':
+                elif resp == 'N':
                     print('•••Cancelando•••')
                     break
                 else:
