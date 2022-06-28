@@ -41,7 +41,7 @@ class Deposito:
                 resp = input('Deseja Adicionar Produto ao estoque? [S/N]')
                 if resp == 'S':
                    self.quan +=1
-                elif resp == 'N':
+                elif resp != 'N':
                     print('•••Cancelando•••')
                     break
                 else:
