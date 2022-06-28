@@ -12,7 +12,6 @@ class Menu:
             Estq.sumiu()
             if entrada == '1':
                 Estq.cadastrar_produto()
-                
             if entrada == '2':
                 Estq.listar_tudo()
             if entrada == '3':
